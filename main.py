@@ -1,5 +1,7 @@
 import os
 
+### this is a simple game for trying new ideas 
+
 class user():
     def __init__(self):
         self.score = 0
