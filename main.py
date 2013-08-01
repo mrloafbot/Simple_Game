@@ -41,7 +41,8 @@ class game():
         
     def update(self):
         """  create working game loop here """
-        pass
+        # gather users
+        # gather questions
         
     def play(self):
         while self.player.score < self.maxScore:
