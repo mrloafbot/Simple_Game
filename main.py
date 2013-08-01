@@ -39,6 +39,10 @@ class game():
         self.player = user()
         self.quest = question()
         
+    def update(self):
+        """  create working game loop here """
+        pass
+        
     def play(self):
         while self.player.score < self.maxScore:
             self.quest.getQuestion()
